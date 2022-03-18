@@ -1,0 +1,70 @@
+.portfl__img{
+    /* background: url("../images/Screenshot\ \(253\).png"); */
+    height:30rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width:768px){
+ 
+    .portfl__img{
+        height:20rem;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.portfl__text h2 {
+        font-size: 2.5rem;
+        font-family: var(--fontFamilyserif);
+}
+.portfl__text  {
+border-top: 1px solid var(--colorBordergray);
+border-bottom: 1px solid var(--colorBordergray);
+margin-top: 2rem;
+padding: 2rem 0 2rem;
+}
+.portfl__text p {
+    line-height: 2;
+    padding: 1.6rem 0;
+}
+.portfl__btn .git{
+    margin-bottom: 1.2rem;
+}
+.portfl__btn a{
+display: block;
+color: #203A4C;
+font-size: .7rem;
+padding: 1rem 2rem;
+text-align: center;
+border: thin solid #203A4C;
+}
+
+
+.grid__box{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 40px;
+}
+@media (min-width:768px){
+    .grid__box {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+@media (min-width:1024px){
+    .grid__box {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+@media (min-width:760px) {
+    .portfl__btn a {
+        display: inline-block;
+    }
+
+    .portfl__btn .git {
+        margin-right: 1.2rem;
+    }
+}
