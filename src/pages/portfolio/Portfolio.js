@@ -6,9 +6,12 @@ function Portfolio() {
   return (
     <article className="form-animation">
       <div className="container px">
+        <h1 style={{ padding: "30px 0" }}>
+          Check out my {projects.length} projects
+        </h1>
         <div className="grid__box">
           {projects.map((project) => {
-            const { id, name, img, desc, git, site } = project;
+            const { id, name, img, desc, git, site, tech } = project;
             return (
               <div className="portfl" key={id}>
                 <div
@@ -18,6 +21,7 @@ function Portfolio() {
                 <div className="portfl__text">
                   <h2>{name}</h2>
                   <p>{desc}</p>
+                  <h3> Tech : {tech}</h3>
                   <div className="portfl__btn">
                     <a
                       href={git}

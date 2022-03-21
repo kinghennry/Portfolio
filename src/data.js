@@ -1,10 +1,8 @@
-import ip from "./images/IMG_20210401_110516_521.JPG";
-// import eb from "./images/IMG_20210401_110544_772.JPG";
-// import mange from "./images/IMG_20210401_110558_635.JPG";
-import fb from "./images/IMG_20210401_111030_063.JPG";
-// import bk from "./images/IMG_20210401_111041_268.JPG";
-// import netflix from "./images/IMG_20210401_111051_791.JPG";
-// import fylo from "./images/IMG_20210401_111101_905.JPG";
+import ipify from "./images/Ipify.png";
+import kimono from "./images/Kimono.png";
+import netflix from "./images/netflix.png";
+import google from "./images/google.png";
+import shortly from "./images/Shortly.png";
 
 export const routes = [
   {
@@ -24,35 +22,48 @@ export const projects = [
   {
     id: 1,
     name: "Shortly",
-    img: fb,
-    desc: "This Project Required me to build a facebook clone with react. I used Google auth for login, along with google firebase to store posts and image urls and to give it the real time functionality.",
-    git: "https://github.com/kinghennry/facebook-frontend",
-    site: "https://facebook-clone-5cc75.web.app",
+    img: shortly,
+    desc: "This MERN Stack Project Required me to build a fully responsive Web-app That users can sign-up and shorten very long annoying links. I also used the shortener API to dispatch the shorten functionality.",
+    tech: "MERN | Redux-Toolkit | Redux | Shorten API",
+    git: "https://github.com/kinghennry/shortly",
+    site: "https://my-shoortly.netlify.app/",
   },
   {
     id: 2,
     name: "IP Address Tracker",
-    img: ip,
+    img: ipify,
     desc: "This Project Required me to build a fully responsive Ip address tracker with React , react leaflet for the map and the IP Geolocation API by IPify.",
-    git: "https://github.com/kinghennry/ip-address",
+    tech: "React | Geolocation API",
+    git: "https://github.com/kinghennry/Ip-Address",
     site: "https://ip-addresstracker.netlify.app",
   },
-  //   {
-  //     id: 3,
-  //     name: "Netlify Clone",
-  //     img: netflix,
-  //     desc: "This Project Required me to build a fully responsive Netflix clone with React and TMDB APIs to get the movie list...",
-  //     git: "https://github.com/kinghennry/netlify",
-  //     site: "https://mynetflix-clone.netlify.app/",
-  //   },
-  //   {
-  //     id: 4,
-  //     name: "Bookmark",
-  //     img: bk,
-  //     desc: "This Project Required me to build a fully responsive landing page to the designs provided. I used React for the areas that required interactivity,such as the accordion and dynamic tab rendering.",
-  //     git: "https://github.com/kinghennry/bookmark",
-  //     site: "https://bookmark-clone.netlify.app/",
-  //   },
+  {
+    id: 3,
+    name: "Kimono Video App",
+    img: kimono,
+    desc: "This is a MERN Stack Project Done with Socket.io that Required me to build a web app that Allows Guests to make real time video calls.",
+    tech: "MERN | Socket.io | Context-API",
+    git: "https://github.com/kinghennry/video-app",
+    site: "https://kimoono.netlify.app",
+  },
+  {
+    id: 4,
+    name: "NetFlix Clone",
+    img: netflix,
+    desc: "This Project Required me to build a fully responsive Netflix clone with React and TMDB APIs to get the movie list...",
+    tech: "React, TMDB APIs",
+    git: "https://github.com/kinghennry/netlify",
+    site: "https://mynetflix-clone.netlify.app/",
+  },
+  {
+    id: 5,
+    name: "Google",
+    img: google,
+    desc: "This Project Required me to build a fully responsive Google Page with Real Time Search Functionality. I used React and The Google Search APIs to get realtime data.",
+    tech: "React, Google Search APIs",
+    git: "https://github.com/kinghennry/google",
+    site: "https://my-google-cloone.netlify.app",
+  },
   //   {
   //     id: 5,
   //     name: "Manage",
