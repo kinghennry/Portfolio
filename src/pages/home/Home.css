@@ -11,8 +11,10 @@
 .hero_text {
   font-weight: var(--weightBold);
   font-family: var(--fontFamilyserif);
-  font-size: 2.4rem;
+  font-size: 2.1rem;
+  line-height: 50px;
   padding: 30px 0;
+  display: inline-block;
 }
 
 @media (max-width: 767px) {
@@ -59,6 +61,9 @@
   .home__hero {
     padding: 3rem 2rem 3rem 0;
     width: 60%;
+  }
+  .hero_text {
+    line-height: 60px;
   }
 }
 

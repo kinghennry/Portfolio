@@ -3,6 +3,7 @@ import kimono from "./images/Kimono.png";
 import netflix from "./images/netflix.png";
 import google from "./images/google.png";
 import shortly from "./images/Shortly.png";
+import diamon from "./images/Diamon.png";
 
 export const routes = [
   {
@@ -30,6 +31,15 @@ export const projects = [
   },
   {
     id: 2,
+    name: "Diamon",
+    img: diamon,
+    desc: "This MERN Stack Project Required me to build a fully responsive Web-app That users can sign-up and Perform All CRUD Operations including search.",
+    tech: "MERN | Redux-Toolkit | Redux | Mongo-DB",
+    git: "https://github.com/kinghennry/Diamon-Frontend",
+    site: "https://diamon.netlify.app/",
+  },
+  {
+    id: 3,
     name: "IP Address Tracker",
     img: ipify,
     desc: "This Project Required me to build a fully responsive Ip address tracker with React , react leaflet for the map and the IP Geolocation API by IPify.",
@@ -38,7 +48,7 @@ export const projects = [
     site: "https://ip-addresstracker.netlify.app",
   },
   {
-    id: 3,
+    id: 4,
     name: "Kimono Video App",
     img: kimono,
     desc: "This is a MERN Stack Project Done with Socket.io that Required me to build a web app that Allows Guests to make real time video calls.",
@@ -47,7 +57,7 @@ export const projects = [
     site: "https://kimoono.netlify.app",
   },
   {
-    id: 4,
+    id: 5,
     name: "NetFlix Clone",
     img: netflix,
     desc: "This Project Required me to build a fully responsive Netflix clone with React and TMDB APIs to get the movie list...",
@@ -56,7 +66,7 @@ export const projects = [
     site: "https://mynetflix-clone.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     name: "Google",
     img: google,
     desc: "This Project Required me to build a fully responsive Google Page with Real Time Search Functionality. I used React and The Google Search APIs to get realtime data.",

@@ -1,11 +1,13 @@
 .portfl {
-  border-radius: 20px;
+  padding: 10px;
 }
 .portfl__img {
   height: 30rem;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 20px;
+  border: 2px solid lightgray;
 }
 
 @media (min-width: 768px) {
