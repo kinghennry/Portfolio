@@ -7,7 +7,7 @@ import memorygame from './images/memorygame.png'
 export default [
   {
     id: 1,
-    title: 'Shoply Ecommerce MERN web-app',
+    title: 'Shoply E-commerce MERN web-app',
     skills: ' React, Redux, Express JS,Mongo DB',
     image: ecomm,
     url: 'https://mern-ecommerce-build-1.onrender.com',
