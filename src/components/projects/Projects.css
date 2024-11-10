@@ -1,0 +1,33 @@
+.projects .contact {
+  color: white;
+}
+
+.projectshr {
+  background: #4ee1a0;
+  height: 2px;
+  outline: none;
+  border: none;
+}
+
+.project a {
+  color: #000;
+  font-family: 'Space Grotesk';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2.286px;
+}
+
+.image-hover-effect:hover {
+  opacity: 0.75;
+  background: #000;
+}
+
+link {
+  color: white;
+}
+
+.projects-mobile {
+  color: white;
+}

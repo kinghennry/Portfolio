@@ -1,3 +1,6 @@
-export { default as SEO } from "./seo/SEO";
-export { default as Footer } from "./footer/Footer";
-export { default as Nav } from "./nav/Nav";
+export { default as Footer } from './footer/Footer'
+export { default as Contact } from './contact/Contact'
+export { default as Projects } from './projects/Projects'
+export { default as Hero } from './hero/Hero'
+export { default as Nav } from './nav/Nav'
+export { default as Skills } from './skills/Skills'

@@ -1,103 +1,48 @@
-import ipify from "./images/Ipify.png";
-import kimono from "./images/Kimono.png";
-import netflix from "./images/netflix.png";
-import google from "./images/google.png";
-import shortly from "./images/Shortly.png";
-import diamon from "./images/Diamon.png";
-import arc from "./images/Arc.png";
+import planets from './images/planets.png'
+import ecomm from './images/ecomm.png'
+import markdown from './images/markdown.png'
+import pomodoro from './images/pomodoro.png'
+import memorygame from './images/memorygame.png'
 
-export const routes = [
+export default [
   {
     id: 1,
-    link: "Home",
-    page: "/",
-    color: "green",
+    title: 'Shoply Ecommerce MERN web-app',
+    skills: ' React, Redux, Express JS,Mongo DB',
+    image: ecomm,
+    url: 'https://mern-ecommerce-build-1.onrender.com',
+    github: 'https://github.com/kinghennry/MERN-ECOMMERCE-BUILD',
   },
   {
     id: 2,
-    link: "Portfolio",
-    page: "/portfolio",
-  },
-];
-
-export const projects = [
-  {
-    id: 1,
-    name: "Arc-Invoice",
-    img: arc,
-    desc: "This MERN Stack Project Required me to build a fully responsive Web-app That users can sign-up and create invoices simply by creating customers and with the customers create invoices.",
-    tech: "MERN | Redux-Toolkit | Redux ",
-    git: "https://github.com/kinghennry/Arc-Frontend",
-    site: "https://arc-invoice.netlify.app",
-  },
-  {
-    id: 2,
-    name: "Shortly",
-    img: shortly,
-    desc: "This MERN Stack Project Required me to build a fully responsive Web-app That users can sign-up and shorten very long annoying links. I also used the shortener API to dispatch the shorten functionality.",
-    tech: "MERN | Redux-Toolkit | Redux | Shorten API",
-    git: "https://github.com/kinghennry/shortly",
-    site: "https://my-shoortly.netlify.app/",
+    title: 'Awesome Planet facts web-app',
+    skills: 'React, Javascript',
+    image: planets,
+    url: 'https://planet-fact.netlify.app',
+    github: 'https://github.com/kinghennry/Planet-Facts',
   },
   {
     id: 3,
-    name: "Diamon",
-    img: diamon,
-    desc: "This MERN Stack Project Required me to build a fully responsive Web-app That users can sign-up and Perform All CRUD Operations including search.",
-    tech: "MERN | Redux-Toolkit | Redux | Mongo-DB",
-    git: "https://github.com/kinghennry/Diamon-Frontend",
-    site: "https://diamon.netlify.app/",
+    title: 'Markdown web-app',
+    skills: 'React, Javascript',
+    image: markdown,
+    url: 'https://markdoown-app.netlify.app',
+    github: 'https://github.com/kinghennry/Markdown',
   },
   {
     id: 4,
-    name: "IP Address Tracker",
-    img: ipify,
-    desc: "This Project Required me to build a fully responsive Ip address tracker with React , react leaflet for the map and the IP Geolocation API by IPify.",
-    tech: "React | Geolocation API",
-    git: "https://github.com/kinghennry/Ip-Address",
-    site: "https://ip-addresstracker.netlify.app",
+    title: 'Insane Pomodoro timer web-app',
+    skills: 'React, Javascript',
+    image: pomodoro,
+    url: 'https://pomdoro-app.netlify.app/',
+    github: 'https://github.com/kinghennry/Pomdoro',
   },
   {
     id: 5,
-    name: "Kimono Video App",
-    img: kimono,
-    desc: "This is a MERN Stack Project Done with Socket.io that Required me to build a web app that Allows Guests to make real time video calls.",
-    tech: "MERN | Socket.io | Context-API",
-    git: "https://github.com/kinghennry/video-app",
-    site: "https://kimoono.netlify.app",
+    title: 'Cool memory-game web-app',
+    skills: 'React, Javascript',
+    image: memorygame,
+    url: 'https://memory-gaame.netlify.app/',
+    github: 'https://github.com/kinghennry/Memory-Game',
   },
-  {
-    id: 6,
-    name: "NetFlix Clone",
-    img: netflix,
-    desc: "This Project Required me to build a fully responsive Netflix clone with React and TMDB APIs to get the movie list...",
-    tech: "React, TMDB APIs",
-    git: "https://github.com/kinghennry/netlify",
-    site: "https://mynetflix-clone.netlify.app/",
-  },
-  {
-    id: 7,
-    name: "Google",
-    img: google,
-    desc: "This Project Required me to build a fully responsive Google Page with Real Time Search Functionality. I used React and The Google Search APIs to get realtime data.",
-    tech: "React, Google Search APIs",
-    git: "https://github.com/kinghennry/google",
-    site: "https://my-google-cloone.netlify.app",
-  },
-  //   {
-  //     id: 5,
-  //     name: "Manage",
-  //     img: mange,
-  //     desc: "This Project Required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and Javascript for the areas that required interactivity,such as the navigation bar and testimonial slider.",
-  //     git: "https://github.com/kinghennry/manage",
-  //     site: "https://manage-clone.netlify.app/",
-  //   },
-  //   {
-  //     id: 6,
-  //     name: "Easybank",
-  //     img: eb,
-  //     desc: "This Project Required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid , flexbox and Javascript for the areas that required interactivity,such as the navigation bar .",
-  //     git: "https://github.com/kinghennry/easybank",
-  //     site: "https://easybank-clone.netlify.app/",
-  //   },
-];
+]

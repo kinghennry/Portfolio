@@ -1,0 +1,21 @@
+.hero h1 {
+  color: white;
+}
+
+.hero p {
+  color: white;
+}
+
+.contact {
+  color: white;
+}
+
+.contacthr {
+  height: 2px;
+  background: #4ee1a0;
+}
+
+.hero a {
+  margin: 0;
+  padding: 0;
+}

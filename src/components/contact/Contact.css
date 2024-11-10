@@ -1,0 +1,39 @@
+form {
+  color: hsla(0, 0%, 14%, 1);
+}
+.contactForm {
+  background-color: #242424;
+}
+
+.contactForm p {
+  color: white;
+}
+
+form input {
+  background-color: #242424;
+  color: white;
+}
+
+form textarea {
+  height: 107px;
+  background-color: #242424;
+  color: white;
+}
+.message a {
+  color: white;
+  padding: 0;
+}
+
+.message hr {
+  height: 2px;
+  background: #4ee1a0;
+}
+
+.form hr {
+  height: 2px;
+  background: #4ee1a0;
+}
+
+.contact-button {
+  color: #fff;
+}

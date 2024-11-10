@@ -1,47 +1,45 @@
-import React from "react";
-import "./Footer.css";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import './Footer.css'
+import Github from '../../images/icon-github.svg'
+import Twitter from '../../images/icon-twitter.svg'
+import LinkedIn from '../../images/icon-linkedin.svg'
 
-function Footer() {
+export default function Footer() {
   return (
-    <footer>
-      <div className="container px py">
-        <div className="footer__flex">
-          <div className="footer__nav ">
-            <h2>Henry</h2>
-            <div className="footer__navLinks ">
-              <Link to="/">Home</Link>
-              <Link to="/portfolio">Portfolio</Link>
-            </div>
-          </div>
-          <div className="footer__icons">
+    <>
+      <div className='footer flex flex-col '>
+        <div className=''>
+          <hr className='mb-20 mx-4 md:mb-24 md:mx-40 mt-20' />
+        </div>
+        <div className='flex flex-col md:flex-row md:mb-24 items-center md:mx-40 justify-between'>
+          <h2 className='text-4xl font-bold leading-8 white tracking-tighter mb-5 md:mb-0 title'>
+            henryogbu
+          </h2>
+          <div className='flex flex-row gap-8 items-center sm:mt-5 mb-14 md:mb-0 '>
             <a
-              href="http://github.com/kinghennry"
-              target="_blank"
-              rel="noopener noreferrer"
+              href='https://github.com/kinghennry'
+              target='_blank'
+              rel='noopener noreferrer'
             >
-              <FaGithub className="icon" />
+              <img src={Github} alt='github' />
+            </a>
+
+            <a
+              href='https://www.linkedin.com/in/henry-ogbu-10b60b231'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img src={LinkedIn} alt='linkedin' />
             </a>
             <a
-              href="https://twitter.com/KingHeenry"
-              target="_blank"
-              rel="noopener noreferrer"
+              href='https://twitter.com/nzedikee'
+              target='_blank'
+              rel='noopener noreferrer'
             >
-              <FaTwitter className="icon" />
-            </a>
-            <a
-              href="https://www.linkedin.com/login"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedin className="icon" />
+              <img src={Twitter} alt='twitter' />
             </a>
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </>
+  )
 }
-
-export default Footer;

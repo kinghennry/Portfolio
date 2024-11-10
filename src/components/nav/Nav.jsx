@@ -1,57 +1,40 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import "./Nav.css";
-import { routes } from "../../data";
-const Nav = () => {
-  const [toggle, setToggle] = useState(false);
-  const [show, handleShow] = useState(false);
+import './Nav.css'
+import Github from '../../images/icon-github.svg'
+import Twitter from '../../images/icon-twitter.svg'
+import LinkedIn from '../../images/icon-linkedin.svg'
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
-        handleShow(true);
-      } else handleShow(false);
-    });
-    return () => {
-      window.removeEventListener("scroll");
-    };
-  }, []);
+export default function Navbar() {
   return (
-    <header className={`header ${show && "header--black"}`}>
-      <div className="container">
-        <nav className="flex sb ai">
-          <h1>Henry</h1>
-          <div
-            className="nav__toggle"
-            onClick={() => {
-              setToggle(!toggle);
-            }}
-          >
-            <span className={`${toggle ? "span1--active" : ""}`}></span>
-            <span style={{ opacity: toggle ? "0" : "" }}></span>
-            <span style={{ transform: toggle ? "rotate(-45deg)" : "" }}></span>
-          </div>
-
-          <ul
-            className={`nav__list flex sa ${toggle ? "nav__list--active" : ""}`}
-          >
-            {routes.map((route) => {
-              const { id, link, color, page } = route;
-              return (
-                <>
-                  <li className="nav__item" key={id}>
-                    <Link to={page} className={`nav__link ${color}`}>
-                      {link}
-                    </Link>
-                  </li>
-                </>
-              );
-            })}
-          </ul>
-        </nav>
+    <div className='navbar flex flex-col md:flex-row items-center justify-between md:mx-40 mt-5'>
+      <div>
+        <h2 className='text-4xl font-bold leading-8 tracking-tighter md:mr-96 '>
+          henryogbu
+        </h2>
       </div>
-    </header>
-  );
-};
+      <div className='flex flex-row gap-8 items-center mt-5 md:mt-0  sm:pb-15 '>
+        <a
+          href='https://github.com/kinghennry'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <img src={Github} alt='github' className='' />
+        </a>
 
-export default Nav;
+        <a
+          href='https://www.linkedin.com/in/henry-ogbu-10b60b231'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <img src={LinkedIn} alt='linkedin' />
+        </a>
+        <a
+          href='https://twitter.com/nzedikee'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <img src={Twitter} alt='twitter' />
+        </a>
+      </div>
+    </div>
+  )
+}
