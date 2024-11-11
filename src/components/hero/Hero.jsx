@@ -15,13 +15,11 @@ export default function Hero() {
             I’m a fullstack developer
             <br />
             passionate about building accessible web apps <br /> that users love
-            by using accessible HTML,modern CSS practices and writing clean
-            JavaScript. When writing JavaScript code, I use React for the
-            frontend and Node Js for the backend when writing Javascript code.
-            I’m based in Nigeria but I’m happy working remotely and have
-            experience in remote teams. When I’m not coding, you’ll find me
-            playing video games or reading novels. I’d love you to check out my
-            work.
+            by using modern HTML & CSS practices. When writing JavaScript code,
+            I use React for the frontend and Node Js for the backend . I’m happy
+            working remotely and have experience in remote teams. When I’m not
+            coding, you’ll find me playing video games or reading novels. I’d
+            love you to check out my work.
           </p>
         </div>
         <div className='flex flex-col items-center md:items-start justify-center'>

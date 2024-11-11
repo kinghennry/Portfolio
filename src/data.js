@@ -3,6 +3,7 @@ import ecomm from './images/ecomm.png'
 import markdown from './images/markdown.png'
 import pomodoro from './images/pomodoro.png'
 import memorygame from './images/memorygame.png'
+import coderecur from './images/coderecur.png'
 
 export default [
   {
@@ -13,16 +14,16 @@ export default [
     url: 'https://mern-ecommerce-build-1.onrender.com',
     github: 'https://github.com/kinghennry/MERN-ECOMMERCE-BUILD',
   },
-  // {
-  //   id: 2,
-  //   title: 'Awesome Planet facts web-app',
-  //   skills: 'React, Javascript',
-  //   image: planets,
-  //   url: 'https://planet-fact.netlify.app',
-  //   github: 'https://github.com/kinghennry/Planet-Facts',
-  // },
   {
     id: 2,
+    title: 'Coderecur dev blog web-app',
+    skills: ' React, Redux, Express JS,Mongo DB',
+    image: coderecur,
+    url: 'https://coderecur.onrender.com',
+    github: 'https://github.com/kinghennry/coderecur-mern',
+  },
+  {
+    id: 3,
     title: 'Markdown web-app',
     skills: 'React, Javascript',
     image: markdown,
@@ -30,7 +31,7 @@ export default [
     github: 'https://github.com/kinghennry/Markdown',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Insane Pomodoro timer web-app',
     skills: 'React, Javascript',
     image: pomodoro,
@@ -38,7 +39,7 @@ export default [
     github: 'https://github.com/kinghennry/Pomdoro',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Cool memory-game web-app',
     skills: 'React, Javascript',
     image: memorygame,
