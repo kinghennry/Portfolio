@@ -27,7 +27,7 @@ export default function Hero() {
             href='#contact'
             className='hover:text-greenUnderlined contact mt-6 font-space text-base font-bold leading-6 tracking-wider md:ml-40 md:text-left'
           >
-            CONTACT ME 
+            CONTACT ME NOW
           </a>
           <hr className='contacthr border-none w-28 mt-2 md:ml-40' />
         </div>
