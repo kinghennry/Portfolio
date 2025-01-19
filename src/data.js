@@ -4,6 +4,7 @@ import markdown from './images/markdown.png'
 import pomodoro from './images/pomodoro.png'
 import memorygame from './images/memorygame.png'
 import coderecur from './images/coderecur.png'
+import brainwave from './images/brainwave.png'
 
 export default [
   {
@@ -24,6 +25,14 @@ export default [
   },
   {
     id: 3,
+    title: 'Insane Brainwave Gaming Landing Page with Slick Animations ',
+    skills: 'React, Gsap',
+    image: brainwave,
+    url: 'https://brainwavegsap.netlify.app',
+    github: 'https://github.com/kinghennry/Brainwave-Landing-Page',
+  },
+  {
+    id: 4,
     title: 'Markdown web-app',
     skills: 'React, Javascript',
     image: markdown,
@@ -31,7 +40,7 @@ export default [
     github: 'https://github.com/kinghennry/Markdown',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Insane Pomodoro timer web-app',
     skills: 'React, Javascript',
     image: pomodoro,
@@ -39,7 +48,7 @@ export default [
     github: 'https://github.com/kinghennry/Pomdoro',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Cool memory-game web-app',
     skills: 'React, Javascript',
     image: memorygame,
